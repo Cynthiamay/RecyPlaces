@@ -10,11 +10,19 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    var navigatonController = UINavigationController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window?.rootViewController = navigatonController
+
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
+        UINavigationBar.appearance().tintColor = UIColor.black
+        navigatonController.pushViewController(NearMeTableViewController(), animated: true)
+        window?.makeKeyAndVisible()
+
         return true
+        
     }
 
     // MARK: UISceneSession Lifecycle

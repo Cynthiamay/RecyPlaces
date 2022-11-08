@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A65EC3AF98584F6CFEBE17F /* Pods_RecyPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBBB0674C9BAE8AC3EA986B /* Pods_RecyPlaces.framework */; };
 		8B348D1B2919E3CA000B535A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D1A2919E3CA000B535A /* AppDelegate.swift */; };
 		8B348D1D2919E3CA000B535A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D1C2919E3CA000B535A /* SceneDelegate.swift */; };
 		8B348D1F2919E3CA000B535A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D1E2919E3CA000B535A /* ViewController.swift */; };
 		8B348D222919E3CA000B535A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B348D202919E3CA000B535A /* Main.storyboard */; };
 		8B348D242919E3CC000B535A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B348D232919E3CC000B535A /* Assets.xcassets */; };
 		8B348D272919E3CC000B535A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B348D252919E3CC000B535A /* LaunchScreen.storyboard */; };
+		8B348D302919E479000B535A /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D2F2919E479000B535A /* MapsViewController.swift */; };
+		8B348D322919E505000B535A /* NearMeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D312919E505000B535A /* NearMeTableViewController.swift */; };
+		8B348D342919E536000B535A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D332919E536000B535A /* ContainerViewController.swift */; };
+		8B348D362919E572000B535A /* MapViewDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D352919E572000B535A /* MapViewDetailsTableViewController.swift */; };
+		8B348D392919E59C000B535A /* NearMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D382919E59C000B535A /* NearMeTableViewCell.swift */; };
+		8B348D3D2919E652000B535A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D3C2919E652000B535A /* UIColor+Extension.swift */; };
+		8B348D402919E862000B535A /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D3F2919E862000B535A /* Place.swift */; };
+		8B348D422919E888000B535A /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D412919E888000B535A /* PlaceAnnotation.swift */; };
+		8B348D442919EDA0000B535A /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B348D432919EDA0000B535A /* ViewConfiguration.swift */; };
+		8BF71D62291AEFB70065B9DA /* RecyPlaces-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8BF71D61291AEFB70065B9DA /* RecyPlaces-2.gif */; };
+		8BF71D64291AF0770065B9DA /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF71D63291AF0770065B9DA /* LaunchScreenViewController.swift */; };
+		8BF71D66291AF08F0065B9DA /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF71D65291AF08F0065B9DA /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FBBB0674C9BAE8AC3EA986B /* Pods_RecyPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecyPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A627A8047A0A0869D44541 /* Pods-RecyPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecyPlaces.release.xcconfig"; path = "Target Support Files/Pods-RecyPlaces/Pods-RecyPlaces.release.xcconfig"; sourceTree = "<group>"; };
 		8B348D172919E3CA000B535A /* RecyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B348D1A2919E3CA000B535A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B348D1C2919E3CA000B535A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,19 @@
 		8B348D232919E3CC000B535A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B348D262919E3CC000B535A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B348D282919E3CC000B535A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B348D2F2919E479000B535A /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		8B348D312919E505000B535A /* NearMeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeTableViewController.swift; sourceTree = "<group>"; };
+		8B348D332919E536000B535A /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		8B348D352919E572000B535A /* MapViewDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDetailsTableViewController.swift; sourceTree = "<group>"; };
+		8B348D382919E59C000B535A /* NearMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeTableViewCell.swift; sourceTree = "<group>"; };
+		8B348D3C2919E652000B535A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		8B348D3F2919E862000B535A /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		8B348D412919E888000B535A /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		8B348D432919EDA0000B535A /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		8BF71D61291AEFB70065B9DA /* RecyPlaces-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "RecyPlaces-2.gif"; sourceTree = "<group>"; };
+		8BF71D63291AF0770065B9DA /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		8BF71D65291AF08F0065B9DA /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		BE9E02438C2DE226E0FCF13E /* Pods-RecyPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecyPlaces.debug.xcconfig"; path = "Target Support Files/Pods-RecyPlaces/Pods-RecyPlaces.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A65EC3AF98584F6CFEBE17F /* Pods_RecyPlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03547DE449AD69A4A14DEE75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FBBB0674C9BAE8AC3EA986B /* Pods_RecyPlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B348D0E2919E3CA000B535A = {
 			isa = PBXGroup;
 			children = (
 				8B348D192919E3CA000B535A /* RecyPlaces */,
 				8B348D182919E3CA000B535A /* Products */,
+				FE8F2BACB43B217409CA0D79 /* Pods */,
+				03547DE449AD69A4A14DEE75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +95,9 @@
 		8B348D192919E3CA000B535A /* RecyPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				8B348D3A2919E628000B535A /* Helper */,
+				8B348D372919E595000B535A /* Cell */,
+				8B348D2E2919E45C000B535A /* Controller */,
 				8B348D1A2919E3CA000B535A /* AppDelegate.swift */,
 				8B348D1C2919E3CA000B535A /* SceneDelegate.swift */,
 				8B348D1E2919E3CA000B535A /* ViewController.swift */,
@@ -67,6 +109,48 @@
 			path = RecyPlaces;
 			sourceTree = "<group>";
 		};
+		8B348D2E2919E45C000B535A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B348D2F2919E479000B535A /* MapsViewController.swift */,
+				8B348D312919E505000B535A /* NearMeTableViewController.swift */,
+				8B348D332919E536000B535A /* ContainerViewController.swift */,
+				8B348D352919E572000B535A /* MapViewDetailsTableViewController.swift */,
+				8BF71D63291AF0770065B9DA /* LaunchScreenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B348D372919E595000B535A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8B348D382919E59C000B535A /* NearMeTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8B348D3A2919E628000B535A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8BF71D61291AEFB70065B9DA /* RecyPlaces-2.gif */,
+				8B348D3C2919E652000B535A /* UIColor+Extension.swift */,
+				8B348D3F2919E862000B535A /* Place.swift */,
+				8B348D412919E888000B535A /* PlaceAnnotation.swift */,
+				8B348D432919EDA0000B535A /* ViewConfiguration.swift */,
+				8BF71D65291AF08F0065B9DA /* UIImageView+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FE8F2BACB43B217409CA0D79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E02438C2DE226E0FCF13E /* Pods-RecyPlaces.debug.xcconfig */,
+				80A627A8047A0A0869D44541 /* Pods-RecyPlaces.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B348D2B2919E3CC000B535A /* Build configuration list for PBXNativeTarget "RecyPlaces" */;
 			buildPhases = (
+				5BDF2F17C94FE334AB731E21 /* [CP] Check Pods Manifest.lock */,
 				8B348D132919E3CA000B535A /* Sources */,
 				8B348D142919E3CA000B535A /* Frameworks */,
 				8B348D152919E3CA000B535A /* Resources */,
+				0344440C5987B0D4A5E71359 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +213,54 @@
 			files = (
 				8B348D272919E3CC000B535A /* LaunchScreen.storyboard in Resources */,
 				8B348D242919E3CC000B535A /* Assets.xcassets in Resources */,
+				8BF71D62291AEFB70065B9DA /* RecyPlaces-2.gif in Resources */,
 				8B348D222919E3CA000B535A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0344440C5987B0D4A5E71359 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecyPlaces/Pods-RecyPlaces-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecyPlaces/Pods-RecyPlaces-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecyPlaces/Pods-RecyPlaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BDF2F17C94FE334AB731E21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecyPlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B348D132919E3CA000B535A /* Sources */ = {
@@ -139,8 +268,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B348D1F2919E3CA000B535A /* ViewController.swift in Sources */,
+				8BF71D64291AF0770065B9DA /* LaunchScreenViewController.swift in Sources */,
+				8BF71D66291AF08F0065B9DA /* UIImageView+Extension.swift in Sources */,
+				8B348D362919E572000B535A /* MapViewDetailsTableViewController.swift in Sources */,
+				8B348D422919E888000B535A /* PlaceAnnotation.swift in Sources */,
 				8B348D1B2919E3CA000B535A /* AppDelegate.swift in Sources */,
+				8B348D3D2919E652000B535A /* UIColor+Extension.swift in Sources */,
 				8B348D1D2919E3CA000B535A /* SceneDelegate.swift in Sources */,
+				8B348D302919E479000B535A /* MapsViewController.swift in Sources */,
+				8B348D342919E536000B535A /* ContainerViewController.swift in Sources */,
+				8B348D322919E505000B535A /* NearMeTableViewController.swift in Sources */,
+				8B348D442919EDA0000B535A /* ViewConfiguration.swift in Sources */,
+				8B348D392919E59C000B535A /* NearMeTableViewCell.swift in Sources */,
+				8B348D402919E862000B535A /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +422,7 @@
 		};
 		8B348D2C2919E3CC000B535A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9E02438C2DE226E0FCF13E /* Pods-RecyPlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +431,14 @@
 				DEVELOPMENT_TEAM = SG883V6233;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecyPlaces/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = teste;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = testes;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +448,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8B348D2D2919E3CC000B535A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A627A8047A0A0869D44541 /* Pods-RecyPlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +463,14 @@
 				DEVELOPMENT_TEAM = SG883V6233;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecyPlaces/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = teste;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = testes;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
